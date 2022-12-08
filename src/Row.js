@@ -31,6 +31,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
   }
  
+  //Faire apparaitre le trailer d'un film lorsque l'on clique sur la pochette de celui-ci
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl('')
@@ -58,7 +59,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
         })}
       </div>
       <div style={{ padding: "40px" }}>
-       {/*trailer du film lorsque l'on appuie sur sa pochette*/}
+       {/*trailer du film en dessous de la pochette choisie*/}
         {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
       </div>
     </div>
