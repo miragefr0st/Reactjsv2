@@ -8,7 +8,7 @@ import Nav from './Nav';
 function App() {
 	return (
 		<div className="app">
-			{/*Nav = logo netflix et logo bonhome la barre noire*/}
+			{/*Nav = logo netflix, logo bonhome et barre noire*/}
 			<Nav />
 			
 			{/*Banner = film choisi aleatoirement dans l'API que l'on affiche en grand*/}
