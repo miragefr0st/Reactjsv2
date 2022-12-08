@@ -1,7 +1,7 @@
 // Ma cle API personnelle de TMDB
 const API_KEY = '2a63afd9ecaa2d087e27247999c7ba4e';
 
-//Demander a TMDB les films par categorie
+//Demander a TMDB les films ici par categorie 
 const requests = {
 	fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_network=123`,
